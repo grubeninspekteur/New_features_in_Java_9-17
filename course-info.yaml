@@ -12,11 +12,12 @@ summary: |-
   - records
   - switch expressions
   - sealed interfaces and classes
-  
+
   The examples are accompanied by recommendations when to use these new features.
 
   Target audience: You are an intermediate to experienced Java developer, familiar with Java 8, and want to learn about the new features you can use when developing on JDK 17 in depth.
-solutions_hidden: false
+vendor:
+  name: Tim Feuerbach
 programming_language: Java
 programming_language_version: 17
 content:
