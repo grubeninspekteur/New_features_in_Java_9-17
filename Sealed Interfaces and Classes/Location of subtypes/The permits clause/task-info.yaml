@@ -1,0 +1,22 @@
+type: theory
+files:
+- name: src/taxonomy/Vertebrate.java
+  visible: true
+- name: src/taxonomy/Human.java
+  visible: true
+- name: src/taxonomy/Fish.java
+  visible: true
+- name: src/taxonomy/JawlessFish.java
+  visible: true
+- name: src/taxonomy/CartilaginousFish.java
+  visible: true
+- name: src/taxonomy/BonyFish.java
+  visible: true
+- name: src/taxonomy/Amphibian.java
+  visible: true
+- name: src/taxonomy/Mammal.java
+  visible: true
+- name: src/taxonomy/Reptile.java
+  visible: true
+- name: src/taxonomy/Bird.java
+  visible: true

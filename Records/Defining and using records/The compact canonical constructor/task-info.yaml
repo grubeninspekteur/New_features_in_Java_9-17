@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: test/Tests.java
+  visible: false
+- name: src/Absolute.java
+  visible: true
+  placeholders:
+  - offset: 36
+    length: 52
+    placeholder_text: /* define compact canonical constructor */

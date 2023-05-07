@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: src/Main.java
+  visible: true
+- name: src/Product.java
+  visible: true
+- name: src/MonetaryAmount.java
+  visible: true
+- name: src/Receipt.java
+  visible: true

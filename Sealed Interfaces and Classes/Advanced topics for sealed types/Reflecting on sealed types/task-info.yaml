@@ -1,0 +1,32 @@
+type: edu
+files:
+- name: src/PolymorphicMapper.java
+  visible: true
+  placeholders:
+  - offset: 1239
+    length: 525
+    placeholder_text: /* implement permitted subclass check */
+- name: test/Tests.java
+  visible: false
+- name: src/dto/v1/ProductDto.java
+  visible: false
+- name: src/dto/v1/ComputerDto.java
+  visible: false
+- name: src/dto/v1/ChairDto.java
+  visible: false
+- name: src/core/Product.java
+  visible: false
+- name: src/core/Chair.java
+  visible: false
+- name: src/core/Computer.java
+  visible: false
+- name: src/dto/v1/NonSealedDto.java
+  visible: false
+- name: src/dto/v1/NonSealedChildDto.java
+  visible: false
+- name: src/core/NonSealed.java
+  visible: false
+- name: src/core/NonSealedChild.java
+  visible: false
+- name: src/MissingPolymorphicMappingException.java
+  visible: true

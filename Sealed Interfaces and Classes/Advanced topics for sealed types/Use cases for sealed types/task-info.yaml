@@ -1,0 +1,24 @@
+type: theory
+files:
+- name: src/Maybe.java
+  visible: true
+- name: src/either/Application.java
+  visible: true
+- name: src/either/OnlineApplication.java
+  visible: true
+- name: src/either/FormApplication.java
+  visible: true
+- name: src/either/Address.java
+  visible: false
+- name: src/messaging/Message.java
+  visible: true
+- name: src/messaging/OrderMessage.java
+  visible: true
+- name: src/messaging/OrderCreatedMessage.java
+  visible: true
+- name: src/messaging/OrderCanceledMessage.java
+  visible: true
+- name: src/messaging/Product.java
+  visible: false
+- name: src/messaging/AccountCreatedMessage.java
+  visible: true

@@ -1,0 +1,16 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 748
+    length: 43
+    placeholder_text: /* TODO */
+- name: test/Tests.java
+  visible: false
+- name: src/Achievement.java
+  visible: true
+  placeholders:
+  - offset: 56
+    length: 8
+    placeholder_text: /* Add PLATINUM enum value */

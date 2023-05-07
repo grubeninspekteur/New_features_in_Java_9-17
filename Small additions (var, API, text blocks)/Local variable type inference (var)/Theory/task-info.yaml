@@ -1,0 +1,8 @@
+type: theory
+files:
+- name: src/BookStore.java
+  visible: true
+- name: src/BookRepository.java
+  visible: false
+- name: src/Book.java
+  visible: false
