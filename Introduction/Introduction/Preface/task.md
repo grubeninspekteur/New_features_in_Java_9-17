@@ -18,6 +18,23 @@ Topics covered:
 There will be small exercises, but the main focus is on giving you theoretical knowledge accompanied
 by examples.
 
+## How to navigate this course
+
+Keep the Task window open at all times and resize it to see more of its contents on large screens.
+
+Use the _Next_ button to proceed to the next lesson.
+
+You can use _Run_ in theory lessons to see the code in action.
+Not all theory lessons contain executable code (for example, the one you are reading doesn't).
+Look out for those that contain a Main method.
+
+For interactive tasks, click the _Check_ button to run the tests and get feedback whether your
+solution was correct.
+
+When you see a Class or method name styled as a link, clicking on it will let the IDE open the
+corresponding source file of the JDK.
+For example: [List.of()](psi_element://java.util.List#of)
+
 ## Prerequisites
 
 This course assumes **you know Java 8** well enough to catch the nuances and differences of the
@@ -29,6 +46,9 @@ of IntelliJ IDEA to benefit from syntax highlighting.
 You can download JDKs from many vendors directly from inside IntelliJ IDEA: https://www.jetbrains.com/help/idea/sdk.html#jdk-from-ide
 
 Do not pick the JetBrains Runtime JRE, it is not suitable for development and also has no JavaDoc.
+
+If you want to change the JDK for the course, right click on the course's name, select
+"Open Module Settings", go to the _Project_ section, and select a different JDK.
 
 ## This is not a complete overview
 
