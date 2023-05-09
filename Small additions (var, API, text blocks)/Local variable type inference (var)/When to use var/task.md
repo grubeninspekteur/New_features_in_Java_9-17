@@ -23,7 +23,7 @@ Particularly when you have different versions of the same object (entities, proj
 
 ## Set up rules
 
-When upgrading to Java 9 or later, your team should decide how you use `var` early on and record your decision in your style guide.
+When upgrading to Java 10 or later, your team should decide how you use `var` early on and record your decision in your style guide.
 
 Your team may decide against using `var` at all – that's perfectly fine.
 Java developers have lived without it for decades.
