@@ -1,9 +1,7 @@
 # Records
 
-Records were added in their final form with [JEP 395](https://openjdk.org/jeps/395), and they are
-by far my most favorite new feature.
-Not only are they are a concise way of defining data structures, but they will also help embracing
-a different style of programming (data oriented programming), with logic focusing on immutable data.
+Records were added in their final form with [JEP 395](https://openjdk.org/jeps/395).
+Simply put, they are a concise way of defining immutable data classes.
 
 Their simplicity makes it easier than ever to introduce more strong types to your codebase,
 replacing weak field declarations like `String productCode` or `int positiveInteger` with types
