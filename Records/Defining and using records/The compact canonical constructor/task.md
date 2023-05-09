@@ -32,7 +32,7 @@ automatically at the end of the compact canonical constructor.
 > 
 > ```java
 > var point1 = new CrazyPoint(1, 3);
-> var point2 = new CrazyPoint(point1.x(), point2.x());
+> var point2 = new CrazyPoint(point1.x(), point1.y());
 > assert point1.equals(point2); // assertion error, [3, 1] != [1, 3] 
 > ```
 
