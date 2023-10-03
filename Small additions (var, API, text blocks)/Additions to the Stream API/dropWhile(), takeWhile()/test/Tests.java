@@ -9,7 +9,7 @@ public class Tests {
   @Test
   public void testSimpleList() {
 
-    var sourceList = List.of("one", "two", "three", "START", "four", "five", "six", "STOP", "seven",
+    var sourceList = List.of("one", "two", "three", "START", "four", "five", "six", "END", "seven",
         "eight", "nine");
     var result = uut.getBetweenStartToEnd(sourceList);
     assertEquals(sourceList.toString(), List.of("four", "five", "six"), result);
@@ -17,7 +17,7 @@ public class Tests {
 
   @Test
   public void testEmptyList() {
-    var result = uut.getBetweenStartToEnd(List.of("START", "STOP"));
+    var result = uut.getBetweenStartToEnd(List.of("START", "END"));
     assertEquals("empty list works", List.of(), result);
   }
 }

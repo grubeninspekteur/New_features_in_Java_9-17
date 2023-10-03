@@ -1,10 +1,10 @@
 type: edu
 files:
-- name: src/Task.java
-  visible: true
-  placeholders:
-  - offset: 143
-    length: 107
-    placeholder_text: /* add stream operations */
-- name: test/Tests.java
-  visible: false
+  - name: src/Task.java
+    visible: true
+    placeholders:
+      - offset: 143
+        length: 106
+        placeholder_text: /* add stream operations */
+  - name: test/Tests.java
+    visible: false

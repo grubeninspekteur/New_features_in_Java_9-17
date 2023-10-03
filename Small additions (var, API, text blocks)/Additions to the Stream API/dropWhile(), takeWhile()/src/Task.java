@@ -5,7 +5,7 @@ public class Task {
     return words.stream()
         .dropWhile(word -> !"START".equals(word))
         .skip(1)
-        .takeWhile(word -> !"STOP".equals(word))
+        .takeWhile(word -> !"END".equals(word))
         .toList();
   }
 }
