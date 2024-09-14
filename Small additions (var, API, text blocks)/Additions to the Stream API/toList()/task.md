@@ -16,3 +16,12 @@ collectors without having to change the Stream API.
 `toList()` is not available on primitive streams (like [IntStream](psi_element://java.util.stream.IntStream)), which makes sense since
 generics require objects (for now, at least).
 However, you can use the operator [boxed()](psi_element://java.util.stream.IntStream#boxed) to box these first and then use `toList()`.
+
+> **Warning:** `toList()` returns an _immutable_ list.
+> While the JavaDoc says there are no guarantees about the mutability of the returned list,
+> `Collectors.toList()` in OpenJDK de facto returns an `ArrayList`.
+> If your code was relying on this implementation detail, it will break after refactoring to
+> `toList()`.
+> 
+> In general, your code should treat any list you got as a parameter or return type as of unknown mutability,
+> and make a copy if you need to change it.
