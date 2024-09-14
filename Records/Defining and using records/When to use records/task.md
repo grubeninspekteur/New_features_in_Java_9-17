@@ -66,27 +66,8 @@ return wherever you like, even in interfaces.
 
 Sometimes, you need a class only for a single method.
 You could already declare local classes, but these can make the method hard to read.
-Records are perfect to store intermediate results in a structured way:
-
-```java
-Map<String, List<House>> findTopNPriciestHousesPerCity(int n) {
-
-    record CityPrice(String city, int price) {}
-      
-    getHouses().stream()
-        .map(house -> new CityPrice(house.getCity(), house.getPrice()))
-        .distinct()
-        .sorted(Comparator.comparing(CityPrice::price).reversed())
-        .collect(Collectors.groupingBy(CityPrice::city,
-        Collectors.collectingAndThen(
-        Collectors.toList(),
-        prices -> prices.stream()
-        .limit(n)
-        .collect(Collectors.toList())
-        );
-        
-}
-```
+Records are perfect to store expensive-to-calculate intermediate results in a structured way.
+You can find an example in the `IntermediateRecord` class.
 
 ### Immutable all the way
 
