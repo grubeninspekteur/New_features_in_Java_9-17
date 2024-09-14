@@ -96,16 +96,8 @@ Let me know what you'd prefer.
 
 ## Those pesky bugs
 
-Due to how slow enterprise software is upgraded, I have not yet come in contact with Java features newer
-than version 8 at work, so I cannot give guidelines from first-hand experience.
-This course is partially also me trying to explore these features after having learned about them
-through JEPs, experimentation, talks, and other resources.
-
-Naturally, this can lead to errors in the course material.
-I can also hardly conceal the fact that I'm not a native speaker.
-
-If you find errors or grammatical/semantic oddities, please feel free to open a pull request on
-Github.
+If you find errors or grammatical/semantic oddities, please feel free to open a pull request [on
+Github](https://github.com/grubeninspekteur/New_features_in_Java_9-17).
 Thank you!
 
 ## Where can I learn more?
